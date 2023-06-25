@@ -15,6 +15,7 @@ body {
     background-color: rgba(240, 248, 255, 0.049);
     position: fixed;
     top: 0%;
+    z-index: 10000;
     
     
 }
@@ -69,6 +70,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
+
 span {
     color: aqua;
 }
@@ -305,7 +307,23 @@ textarea:focus{
 }
 
 /* responsives */
+@media screen and (max-width:415px){
+.techno .icone {
 
+    position: relative;
+    top: 50%;
+}
+.techno .box {
+    position: relative;
+    top: 50%;
+}
+.rs {
+    width: 60%;
+    margin-left: 30%;
+}
+
+
+}
 @media  screen and (max-width:600px){
 
     #hi {

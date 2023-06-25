@@ -321,6 +321,16 @@ textarea:focus{
     width: 60%;
     margin-left: 30%;
 }
+.contact .icone {
+   position: relative;
+   top: -10%;
+}
+form {
+    width: 100%;
+}
+.fu {
+    width: 98%;
+}
 
 
 }

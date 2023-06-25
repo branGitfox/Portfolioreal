@@ -379,6 +379,7 @@ textarea:focus{
         position: relative;
         right: 70%;
         }
+     
 
 
 }
@@ -409,6 +410,9 @@ textarea:focus{
             margin-left: 5%;
             width: 20px;
             height: 20px;
+        }
+        .A {
+            left:46%
         }
 }
 @media screen and (min-width:1200px){

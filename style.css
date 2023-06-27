@@ -359,7 +359,7 @@ h4:hover{
     }
     .link a {
         font-weight: 600;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
         color: white;
         text-decoration: none;   
     }
@@ -491,7 +491,7 @@ h4:hover{
  
     .link a {
         font-weight: 600;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
         color: white;
         text-decoration: none;   
         font-size: 9px;
@@ -520,7 +520,6 @@ h4:hover{
         top: -3rem;
     }
    
-    
    }
    @media screen and (min-width:600px){
     .home{
@@ -753,7 +752,7 @@ h4:hover{
         font-weight: 700;
         position: relative;
         top:-15rem;
-        left: 15rem;      
+        left: 8rem;      
         color: white;
     }
     .me{
@@ -776,15 +775,15 @@ h4:hover{
         text-decoration: none;
         color: white;
         position: relative;
-        top: -10rem;
+        top: -8rem;
         left: 6rem;
       
     }
     .bo {
-        width: 10rem;
+        width: 30rem;
         position: relative;
         top: -15rem;
-        left: 19rem;
+        left: 15rem;
     }
 
     hr{
@@ -830,7 +829,7 @@ h4:hover{
         width: 24px;
         height: 24px;
         position: relative;
-        left:25rem;
+        left:20rem;
         
     }
     .moi {
@@ -839,7 +838,7 @@ h4:hover{
         font-size: 40px;
         position: relative;
         top: 0rem;
-        left: 25rem;
+        left: 20rem;
      }
      .non{
         display: none;
@@ -849,7 +848,7 @@ h4:hover{
         font-weight: 700;
         position: relative;
         top:-14rem;
-        left: 25rem;      
+        left: 15rem;      
         color: white;
     }
     .me{
@@ -872,15 +871,15 @@ h4:hover{
         text-decoration: none;
         color: white;
         position: relative;
-        top: -10rem;
-        left: 6rem;
+        top: -8rem;
+        left: 8rem;
       
     }
     .bo {
-        width: 10rem;
+        width: 30rem;
         position: relative;
         top: -15rem;
-        left: 29rem;
+        left: 20rem;
     }
 
     hr{

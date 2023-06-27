@@ -292,6 +292,7 @@ h4:hover{
     .fox svg {
         width: 30px;
         height: 30px;
+        display: none;
     }
     .rs svg {
        

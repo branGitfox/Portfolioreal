@@ -282,6 +282,18 @@ h4:hover{
         display: flex;
         flex-wrap: wrap;
     }
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        background-color: #23395B;
+        height: 9vh;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0);
+        z-index: 1000;
+    }
     .image img{
         width: 140px;
         height: 140px;
@@ -420,6 +432,23 @@ h4:hover{
         display: flex;
         flex-wrap: wrap;
     }
+    .fox svg {
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        background-color: #23395B;
+        height: 9vh;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0);
+        z-index: 1000;
+    }
     .image img{
         width: 135px;
         height: 135px;
@@ -519,12 +548,39 @@ h4:hover{
         position: relative;
         top: -3rem;
     }
+    h1 {
+        position: relative;
+        right: 3rem;
+        font-size: 20px;
+    }
    
    }
    @media screen and (min-width:600px){
     .home{
         display: flex;
         flex-wrap: wrap;
+    }
+    .fox svg {
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        background-color: #23395B;
+        height: 9vh;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0);
+        z-index: 1000;
+    }
+    h1 {
+        position: relative;
+        right: 3rem;
+        font-size: 20px;
     }
     .image img{
         width: 150px;
@@ -620,6 +676,11 @@ h4:hover{
     .home{
         display: flex;
         flex-wrap: wrap;
+    }
+    .fox svg {
+        width: 30px;
+        height: 30px;
+        display: none;
     }
     .image img{
         width: 250px;

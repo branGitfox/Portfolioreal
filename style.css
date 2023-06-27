@@ -276,8 +276,7 @@ h4{
 }
 h4:hover{
     color: white;
-}
-/* ici commmence les responsive */
+}/* ici commmence les responsive */
 @media screen and (max-width:415px){
     .home{
         display: flex;
@@ -904,10 +903,5 @@ h4:hover{
         top: -3rem;
     }
    }
-    
-
-    
-
-
 
 

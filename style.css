@@ -1,0 +1,914 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    background-color: #161925;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #23395B;
+    height: 9vh;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0);
+    z-index: 1000;
+}
+.logo a {
+    font-weight: 800;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: bisque;
+}
+.link a {
+    font-weight: 600;
+    margin-right: 2rem;
+    color: white;
+    text-decoration: none;
+   
+}
+.link a:hover{
+    border-bottom:solid 2px #406E8E;
+    color:rgba(255, 255, 255, 0.708);
+}
+.fox svg {
+    color:#406E8E;
+    
+}
+h1{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: animate__heartBeat; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 20s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+.moi {
+font-weight: 900;
+color: white;
+font-size: 40px;
+}
+ .titre{
+    color: #406E8E;
+ }
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top:5rem;
+    margin: auto;
+    width: 90%;
+    background: #091424;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: -1px -2px 20px 6px #0b111b;
+}
+.title {
+    display: grid;
+    grid-template-rows: 1fr 3fr ;
+}
+.image img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-top: 8rem;
+    border: solid 5px rgb(0, 136, 255);
+    margin-left: 8rem;
+    padding: 2px;
+   
+}
+.image a {
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 11rem;
+    
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15rem;
+  
+}
+.image a:hover{
+    border: solid 2px #406E8E;
+    color: #406E8E;
+}
+.image {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+.rs svg {
+    color: bisque;
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-right:2rem;
+    
+}
+.rs svg:hover{
+    color: white;
+}
+.job {
+    font-size:30px ;
+    font-weight: 700;
+    position: relative;
+    top:-22rem;
+    text-align: center;
+    color: white;
+}
+.me{
+    position: relative;
+    color: white;
+    top: -20rem;
+    text-align: center;
+    width: 10rem;
+    border: solid 2px white;
+    left: 35%;
+    text-decoration: none;
+    letter-spacing: 5px;
+    
+}
+.me:hover{
+    border: solid 2px #406E8E;
+    color: #406E8E;
+}
+
+.fox svg:hover{
+    color: white;
+}
+.bo {
+    color: rgba(255, 255, 255, 0.812);
+    font-weight: 100;
+    position: relative;
+    top: -22rem;
+    left: 7rem;
+    width: 30rem;
+    
+}
+/* ici commence la section about me */
+.zaho {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    position: relative;
+    top:9rem;
+    margin: auto;
+    width: 90%;
+    background: #091424;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: -1px -2px 20px 6px #0b111b;
+
+}
+.lohan{
+    /* background-color: red; */
+}
+.information{
+    display: grid;
+    /* background-color: blue; */
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.bio{
+    display: grid;
+    /* background-color: green; */
+    grid-template-rows: 1fr 5fr;
+}
+.loisirs {
+    /* background-color:yellow ; */
+}
+.information h3 {
+    text-align: center;
+    color: rgb(253, 212, 162);
+    font-weight: 600;
+}
+.zao {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+.soratra {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.819);
+    font-weight: 200;
+    padding: 40px;
+}
+.stacks {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    position: relative;
+    top:13rem;
+    margin: auto;
+    width: 90%;
+    background: #091424;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: -1px -2px 20px 6px #0b111b;
+}
+.contact {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    position: relative;
+    top:16rem;
+    margin: auto;
+    width: 90%;
+    background: #091424;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: -1px -2px 20px 6px #0b111b;
+}
+.champs{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    margin: auto;
+}
+input {
+    height: 2rem;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+#sub {
+    background-color: #091424 ;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+    border: solid 1px #406E8E;
+}
+#sub:hover{
+    background-color:#406E8E;
+}
+input:focus{
+    border: solid 5px #406E8E;
+}
+.textarea:focus{
+    border: solid 5px #406E8E;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: relative;
+    top:20rem;
+    width: 100%;
+    background: #091424;
+    height: 10vh;
+    border-radius: 20px;
+    box-shadow: -1px -2px 20px 6px #0b111b;
+}
+.mail a{
+    text-decoration: none;
+    color: bisque;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: bisque;
+}
+h4:hover{
+    color: white;
+}
+/* ici commmence les responsive */
+@media screen and (max-width:415px){
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .fox svg {
+        width: 30px;
+        height: 30px;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:5px;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left:3rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 0rem;
+        left: 3rem;
+     }
+     .nin {
+        display: none;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:10px ;
+        font-weight: 700;
+        position: relative;
+        top:-15rem;
+        left: 3rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -13rem;
+        left: 4rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -16rem;
+        left: 2.5rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 4.5rem;
+    }
+    .link a {
+        font-weight: 600;
+        margin-right: 0.5rem;
+        color: white;
+        text-decoration: none;   
+    }
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+      
+        font-size: 13px;
+    }
+    
+    .information p {
+        font-size:10px ;
+    }
+    .bio p {
+        position: relative;
+        top: 2rem;
+    }
+    input {
+        height: 1.5rem;
+        border-radius: 10px;
+    }
+    textarea {
+        width: 200px;
+        height: 50px;
+    }
+    #sub {
+        background-color: #091424 ;
+        color: white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding: 0.2rem;
+        border-radius: 10px;
+        border: solid 1px #406E8E;
+        position: relative;
+        top: -0.2rem;
+    }
+    h4 {
+        font-size: 5px;
+    }
+    .tel h4{
+        position: relative;
+        top: 8px;
+    }
+    .mail a {
+        position: relative;
+        top: -0.5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:5px;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left:2rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 16px;
+        position: relative;
+        top: 0rem;
+        left: 3rem;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:10px ;
+        font-weight: 700;
+        position: relative;
+        top:-18.5rem;
+        left: 2rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -14.5rem;
+        left: 2rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -11rem;
+        left: 2rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 2rem;
+        font-size: 8px;
+    }
+ 
+    .link a {
+        font-weight: 600;
+        margin-right: 0.5rem;
+        color: white;
+        text-decoration: none;   
+        font-size: 9px;
+    }
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+        top:4px;
+        font-size: 10px;
+    }
+    
+    .information p {
+        font-size:6px ;
+        position: relative;
+        top: -2rem;
+    }
+    .bio p {
+        position: relative;
+        top: -3rem;
+    }
+   
+    
+   }
+   @media screen and (min-width:600px){
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:10px;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left:5rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 0rem;
+        left: 5rem;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:20px ;
+        font-weight: 700;
+        position: relative;
+        top:-15rem;
+        left: 5rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -13rem;
+        left: 9rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -16rem;
+        left: 2.5rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 9rem;
+    }
+
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+        font-size: 13px;
+    }
+    
+    .information p {
+        font-size:10px ;
+    }
+    .bio p {
+        position: relative;
+        top: -3rem;
+    }
+    
+   }
+   @media screen and (min-width:768px) {
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:10px;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left:5rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 0rem;
+        left: 5rem;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:20px ;
+        font-weight: 700;
+        position: relative;
+        top:-15rem;
+        left: 5rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -13rem;
+        left: 9rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -10rem;
+        left: 6rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 9rem;
+    }
+
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+      
+        font-size: 13px;
+    }
+    
+    .information p {
+        font-size:12px ;
+    }
+    .bio p {
+        position: relative;
+        top: -3rem;
+    }
+    
+    
+   }
+   @media screen and (min-width:992px) {
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:10px;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left:15rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 0rem;
+        left: 15rem;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:20px ;
+        font-weight: 700;
+        position: relative;
+        top:-15rem;
+        left: 15rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -13rem;
+        left: 19rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -10rem;
+        left: 6rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 19rem;
+    }
+
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+      
+        font-size: 13px;
+    }
+    
+    .information p {
+        font-size:12px ;
+    }
+    .bio p {
+        position: relative;
+        top: -3rem;
+    }
+    
+   }
+   @media screen and (min-width:1200px){
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
+    .rs svg {
+       
+        font-weight: 700;
+        margin-top: 4rem;
+        margin-right:10px;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        left:25rem;
+        
+    }
+    .moi {
+        font-weight: 900;
+        color: white;
+        font-size: 40px;
+        position: relative;
+        top: 0rem;
+        left: 25rem;
+     }
+     .non{
+        display: none;
+     }
+     .job {
+        font-size:30px ;
+        font-weight: 700;
+        position: relative;
+        top:-14rem;
+        left: 25rem;      
+        color: white;
+    }
+    .me{
+        position: relative;
+        top: -13rem;
+        left: 29rem;
+        letter-spacing: 1px;
+        width: 8rem;
+        
+    }
+    .image a {
+        border: solid 2px white;
+        border-radius: 20px;
+        padding: 0.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
+       
+        
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -10rem;
+        left: 6rem;
+      
+    }
+    .bo {
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 29rem;
+    }
+
+    hr{
+        width: 80%;
+        position: relative;
+        right: 0rem;
+    }
+    .zao {
+        position: relative;
+    }
+    .bi, .loi, .etu {
+        position: relative;
+      
+        font-size: 13px;
+    }
+    
+    .information p {
+        font-size:14px ;
+    }
+    .bio p {
+        position: relative;
+        top: -3rem;
+    }
+   }
+    
+
+    
+
+
+
+

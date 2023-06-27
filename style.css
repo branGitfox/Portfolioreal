@@ -8,7 +8,17 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: bisque;
     background-color: #161925;
+    overflow-x: hidden;
 }
+.suite {
+    color: #09142400;
+    }
+    .webd {
+        color: #09142400;
+    }
+    .dev {
+     color: #09142400;
+    }
 .nav-bar {
     display: flex;
     align-items: center;
@@ -277,48 +287,75 @@ h4{
 h4:hover{
     color: white;
 }/* ici commmence les responsive */
-@media screen and (min-width:375px){
-    .home{
-        display: flex;
-        flex-wrap: wrap;
-    }  
-    .nav-bar {
-        display: flex;
-        align-items: center;
-        background-color: #23395B;
-        height: 9vh;
-        justify-content: center;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0);
-        z-index: 1000;
-    }
-    .image img{
-        width: 130px;
-        height: 130px;
-        border-radius: 50%;
-        margin-top: 3rem;
-        margin-left: 2rem;
-    }
-    .fox svg {
-        width: 30px;
-        height: 30px;
+@media screen and (max-width:376px){
+    .titre {
         display: none;
     }
-    .rs svg {
-       
-        font-weight: 700;
-        margin-top: 4rem;
-        margin-right:5px;
-        width: 20px;
-        height: 20px;
-        position: relative;
-        left:3rem;
-        
-    }
+   .job{
+    display: none;
+   }
+   .image a {
+    display: none;
+   }
+   .image img {
+    margin-bottom: 9rem;
+   }
+   .rs svg {
+    position: relative;
+    top: -4rem;
+    left: 1rem;
+
+   }
+   .title h2 {
+    position: relative;
+    top: -15.3rem;
+    left: 1.9rem;
+  
+    
+   }
+   .title p{
+    position: relative;
+   
+    font-size: 10px;
+   }
+   .suite {
+    color: #406E8E;
+    position: relative;
+    top: -98.8rem;
+    font-size: 16px;
+    left: 8.6rem;
+    letter-spacing: 3px;
+    font-weight: 200;
+   }
+   .webd {
+    color:#406E8E;
+    position: relative;
+    top:-99rem;
+    font-size:12px ;
+    left: 4.5rem;
+    letter-spacing: 4px;
+   }
+   .dev {
+    color: white;
+   }
+   .footer h4 {
+    font-size: 10px;
+   }
+   .link a {
+    position: relative;
+    right: 2rem;
+    margin-right: 4px;
+   }
+   .home, .contact, .stacks, .zaho, .footer{
+    position: relative;
+    left: 0.2rem;
+   
+   }
+   
+
 }
 
+  
 
 @media screen and (min-width:415px){
     .home{
@@ -382,6 +419,7 @@ h4:hover{
         left: 3rem;      
         color: white;
     }
+   
     .me{
         position: relative;
         top: -13rem;
@@ -442,10 +480,13 @@ h4:hover{
     input {
         height: 1.5rem;
         border-radius: 10px;
+        margin-bottom: 2rem;
     }
+  
     textarea {
         width: 200px;
         height: 50px;
+        
     }
     #sub {
         background-color: #091424 ;
@@ -456,11 +497,11 @@ h4:hover{
         border-radius: 10px;
         border: solid 1px #406E8E;
         position: relative;
-        top: -0.2rem;
+        top: -1.9rem;
     }
-    h4 {
+    /* h4 {
         font-size: 5px;
-    }
+    } */
     .tel h4{
         position: relative;
         top: 8px;
@@ -469,6 +510,12 @@ h4:hover{
         position: relative;
         top: -0.5rem;
     }
+    .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 0.2rem;
+       
+       }
+    
 }
 @media screen and (max-width:600px) {
     .home{
@@ -515,8 +562,8 @@ h4:hover{
         color: white;
         font-size: 16px;
         position: relative;
-        top: 0rem;
-        left: 3rem;
+        top: -3rem;
+        left: 1.7rem;
      }
      .non{
         display: none;
@@ -525,13 +572,13 @@ h4:hover{
         font-size:10px ;
         font-weight: 700;
         position: relative;
-        top:-18.5rem;
-        left: 2rem;      
+        top:-27.5rem;
+        left: 1.7rem;      
         color: white;
     }
     .me{
         position: relative;
-        top: -14.5rem;
+        top: -25.5rem;
         left: 2rem;
         letter-spacing: 1px;
         width: 8rem;
@@ -556,7 +603,7 @@ h4:hover{
     .bo {
         width: 10rem;
         position: relative;
-        top: -15rem;
+        top: -27rem;
         left: 2rem;
         font-size: 8px;
     }
@@ -596,6 +643,11 @@ h4:hover{
         right: 3rem;
         font-size: 20px;
     }
+    .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 0.2rem;
+       
+       }
    
    }
    @media screen and (min-width:600px){
@@ -713,6 +765,11 @@ h4:hover{
         position: relative;
         top: -3rem;
     }
+    .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 0.2rem;
+       
+       }
     
    }
    @media screen and (min-width:768px) {
@@ -758,7 +815,7 @@ h4:hover{
         font-size:20px ;
         font-weight: 700;
         position: relative;
-        top:-15rem;
+        top:-14rem;
         left: 5rem;      
         color: white;
     }
@@ -814,6 +871,12 @@ h4:hover{
         position: relative;
         top: -3rem;
     }
+    .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 0.2rem;
+       
+       }
+
     
     
    }
@@ -856,7 +919,7 @@ h4:hover{
         font-size:20px ;
         font-weight: 700;
         position: relative;
-        top:-15rem;
+        top:-14rem;
         left: 8rem;      
         color: white;
     }
@@ -880,7 +943,7 @@ h4:hover{
         text-decoration: none;
         color: white;
         position: relative;
-        top: -8rem;
+        top: -5rem;
         left: 6rem;
       
     }
@@ -912,7 +975,12 @@ h4:hover{
         position: relative;
         top: -3rem;
     }
-    
+    /* .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 5rem;
+       
+       }
+     */
    }
    @media screen and (min-width:1200px){
     .home{
@@ -1008,6 +1076,20 @@ h4:hover{
         position: relative;
         top: -3rem;
     }
+    /* .home, .contact, .stacks, .zaho, .footer{
+        position: relative;
+        left: 5rem;
+       
+       } */
+       .suite {
+       display: none;
+       }
+       .webd {
+        display: none;
+       }
+       .dev {
+        display: none;
+       }
    }
 
 
